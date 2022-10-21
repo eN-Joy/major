@@ -20,6 +20,7 @@ node_modules/
 # Jupyter Notebook 
 
 .ipynb_checkpoints
+.virtual_documents
 
 # Environments 
 
