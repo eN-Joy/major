@@ -1,0 +1,33 @@
+# Django #
+
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+node_modules/
+
+# Backup files # 
+
+*.bak
+
+# Python # 
+
+*.py[cod] 
+*$py.class
+
+# Jupyter Notebook 
+
+.ipynb_checkpoints
+
+# Environments 
+
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/
+
