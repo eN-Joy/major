@@ -90,3 +90,5 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
 TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+
+LOG_FORMAT = '\x1b[0;0;34m%(asctime)s\x1b[0;0m \x1b[0;0;36m[%(name)s]\x1b[0;0m \x1b[0;0;31m%(levelname)s\x1b[0;0m: %(message)s'
